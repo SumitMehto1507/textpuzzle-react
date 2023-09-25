@@ -1,11 +1,11 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Textarea from "./components/Textarea";
-import Alert from "./components/Alert";
+import Navbar from "./components/Navbar.js";
+import Textarea from "./components/Textarea.js";
+import Alert from "./components/Alert.js";
 import React, { useState } from "react";
-import Aboutus from "./components/Aboutus";
+// import Aboutus from "./components/Aboutus.js";
 // import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom"
 
 function App() {
   const [alert, setalert] = useState("null")
@@ -36,16 +36,18 @@ function App() {
 
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar tittle="TextPuzzle" mode={mode} toggleMode={toggleMode} />
         
         <Alert alert={alert} />
-        <Routes>
-          <Route exact path="/about" element={<Aboutus/>} />
-          <Route exact path="/" element = {<Textarea mode={mode} showalert={showalert}/>}/>
-        </Routes>
+        {/* <Routes> */}
+        {/* <Aboutus/> */}
+        <Textarea mode={mode} showalert={showalert}/>
+          {/* <Route exact path="/about" element={} />
+          <Route exact path="/" element = {}/> */}
+        {/* </Routes> */}
         {/* <Footer  mode={mode} /> */}
-      </Router>
+      {/* </Router> */}
     </>
   )
 }
