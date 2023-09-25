@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/textpuzzle-react/static/css/main.949f8eb2.css",
+    "main.js": "/textpuzzle-react/static/js/main.f04c2de4.js",
+    "static/js/787.d3cb8246.chunk.js": "/textpuzzle-react/static/js/787.d3cb8246.chunk.js",
+    "index.html": "/textpuzzle-react/index.html",
+    "main.949f8eb2.css.map": "/textpuzzle-react/static/css/main.949f8eb2.css.map",
+    "main.f04c2de4.js.map": "/textpuzzle-react/static/js/main.f04c2de4.js.map",
+    "787.d3cb8246.chunk.js.map": "/textpuzzle-react/static/js/787.d3cb8246.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.949f8eb2.css",
+    "static/js/main.f04c2de4.js"
+  ]
+}
